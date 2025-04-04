@@ -1,0 +1,20 @@
+{
+    "name": "harri/harrison-laravel-crypt",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Harrison\\LaravelCrypt\\": "src/",
+            "Harrison\\LaravelCrypt\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harrison9824003"
+        }
+    ],
+    "require-dev": {
+        "phpseclib/phpseclib": "~3.0",
+        "orchestra/testbench": "^10.1",
+        "phpunit/phpunit": "^11.5"
+    }
+}
